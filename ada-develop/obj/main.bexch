@@ -1,0 +1,56 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+/home/n7student/Documents/N7/PIM/Projet/ada/genealogie.gpr
+20250202134310 1ed9b12a63871266ef604f3085f70158
+/usr/share/gpr/xmlada_unicode.gpr
+20201220180752 987e764b914b763296cf8cc7e8e132f1
+/usr/share/gpr/xmlada_input.gpr
+20201220180752 ac7f0ecd7910d0e400ac46844a4eb46a
+/usr/share/gpr/xmlada_sax.gpr
+20201220180752 141dd78fd5ea76de62044878233000de
+/usr/share/gpr/xmlada_dom.gpr
+20201220180752 5d2701e4aa6e833f51289dd2cff46141
+/usr/share/gpr/xmlada_schema.gpr
+20201220180752 57ecb367f516dd4833a9f859a8faedfd
+/usr/share/gpr/gnatprj.gpr
+20201221123043 716f5db7b22aeb67ac4254b002250275
+/usr/share/gpr/gnatcoll.gpr
+20201222095809 02ab8ee3efcbf7200ce6e01e4ecaf9c1
+/usr/local/lib/gnat/gtkada.gpr
+20250113152610 fa97a6d601d36078f10be5044e8bd816
+[BOUND OBJECT FILES]
+/home/n7student/Documents/N7/PIM/Projet/ada/obj/json_handler.o
+/home/n7student/Documents/N7/PIM/Projet/ada/obj/utils.o
+/home/n7student/Documents/N7/PIM/Projet/ada/obj/generic_tree.o
+/home/n7student/Documents/N7/PIM/Projet/ada/obj/tree_global.o
+/home/n7student/Documents/N7/PIM/Projet/ada/obj/tree_functions.o
+/home/n7student/Documents/N7/PIM/Projet/ada/obj/interface_package.o
+/home/n7student/Documents/N7/PIM/Projet/ada/obj/main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-L/home/n7student/Documents/N7/PIM/Projet/ada/obj/
+-L/home/n7student/Documents/N7/PIM/Projet/ada/obj/
+-L/usr/local/lib/gtkada/gtkada.static/gtkada/
+-L/usr/lib/x86_64-linux-gnu/ada/adalib/gnatcoll/
+-L/usr/lib/x86_64-linux-gnu/ada/adalib/gnatprj/
+-L/usr/lib/x86_64-linux-gnu/ada/adalib/xmlada_schema/
+-L/usr/lib/x86_64-linux-gnu/ada/adalib/xmlada_dom/
+-L/usr/lib/x86_64-linux-gnu/ada/adalib/xmlada_sax/
+-L/usr/lib/x86_64-linux-gnu/ada/adalib/xmlada_input/
+-L/usr/lib/x86_64-linux-gnu/ada/adalib/xmlada_unicode/
+-L/root/gtkada/lib/
+-L/usr/lib/gcc/x86_64-linux-gnu/10/adalib/
+-shared
+-shared-libgcc
+-shared-libgcc
+-shared-libgcc
+-shared-libgcc
+-lgnat-10
+-ldl
+[RUN PATH OPTION]
+/usr/lib/gcc/x86_64-linux-gnu/10/adalib/
+/usr/lib

@@ -1,0 +1,1383 @@
+V "GNAT Lib v10"
+A -gnatA
+A -gnatE
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U testcairo_drawing%b	testcairo_drawing.adb	9eb81661 DE OO PF PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+Z ada.numerics.aux%s	a-numaux.adb		a-numaux.ali
+W ada.numerics.generic_elementary_functions%s
+Z ada.streams%s		a-stream.adb		a-stream.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W cairo%s		cairo.adb		cairo.ali
+W cairo.font_options%s	cairo-font_options.adb	cairo-font_options.ali
+W cairo.image_surface%s	cairo-image_surface.adb	cairo-image_surface.ali
+W cairo.matrix%s	cairo-matrix.ads	cairo-matrix.ali
+W cairo.pattern%s	cairo-pattern.ads	cairo-pattern.ali
+W cairo.png%s		cairo-png.adb		cairo-png.ali
+W gdk%s			gdk.ads			gdk.ali
+W gdk.cairo%s		gdk-cairo.adb		gdk-cairo.ali
+W gdk.pixbuf%s		gdk-pixbuf.adb		gdk-pixbuf.ali
+W glib%s		glib.adb		glib.ali
+W glib.error%s		glib-error.adb		glib-error.ali
+W glib.object%s		glib-object.adb		glib-object.ali
+W gtk%s			gtk.ads			gtk.ali
+W gtk.box%s		gtk-box.adb		gtk-box.ali
+W gtk.button%s		gtk-button.adb		gtk-button.ali
+W gtk.drawing_area%s	gtk-drawing_area.adb	gtk-drawing_area.ali
+W gtk.print_context%s	gtk-print_context.adb	gtk-print_context.ali
+W gtk.print_operation%s	gtk-print_operation.adb	gtk-print_operation.ali
+W gtk.window%s		gtk-window.adb		gtk-window.ali
+W gtkada%s		gtkada.ads		gtkada.ali
+W gtkada.printing%s	gtkada-printing.adb	gtkada-printing.ali
+Z interfaces%s		interfac.ads		interfac.ali
+W pango%s		pango.ads		pango.ali
+W pango.cairo%s		pango-cairo.adb		pango-cairo.ali
+W pango.font%s		pango-font.adb		pango-font.ali
+W pango.layout%s	pango-layout.adb	pango-layout.ali
+Z system%s		system.ads		system.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.concat_8%s	s-conca8.adb		s-conca8.ali
+Z system.exn_llf%s	s-exnllf.adb		s-exnllf.ali
+Z system.fat_lflt%s	s-fatlfl.ads		s-fatlfl.ali
+Z system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+Z system.img_enum_new%s	s-imenne.adb		s-imenne.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+Z system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+Z system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+Z system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+
+U testcairo_drawing%s	testcairo_drawing.ads	ad0c4b8d BN DE EE NE OO PK
+W gtk%s			gtk.ads			gtk.ali
+W gtk.frame%s		gtk-frame.adb		gtk-frame.ali
+W gtk.widget%s		gtk-widget.adb		gtk-widget.ali
+
+D ada.ads		20230707070819 76789da1 ada%s
+D a-except.ads		20230707070819 a7106115 ada.exceptions%s
+D a-finali.ads		20230707070819 bf4f806b ada.finalization%s
+D a-ioexce.ads		20230707070819 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20230707070819 bb51c45a ada.numerics%s
+D a-numaux.ads		20230707070819 243fe0b7 ada.numerics.aux%s
+D a-ngelfu.ads		20230707070819 55716239 ada.numerics.generic_elementary_functions%s
+D a-ngelfu.adb		20230707070819 a9022048 ada.numerics.generic_elementary_functions%b
+D a-stream.ads		20230707070819 119b8fb3 ada.streams%s
+D a-tags.ads		20230707070819 491b781d ada.tags%s
+D a-textio.ads		20230707070819 aef4d56d ada.text_io%s
+D a-unccon.ads		20230707070819 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20230707070819 eff36322 ada.unchecked_deallocation%s
+D cairo.ads		20241104074246 925d4aaa cairo%s
+D cairo-font_options.ads  20241104074246 d26c552f cairo.font_options%s
+D cairo-image_surface.ads  20241104074246 c56528df cairo.image_surface%s
+D cairo-matrix.ads	20241104074246 711e5d63 cairo.matrix%s
+D cairo-pattern.ads	20241104074246 78c11fab cairo.pattern%s
+D cairo-png.ads		20241104074246 3c40ad91 cairo.png%s
+D cairo-region.ads	20241104074246 b7133728 cairo.region%s
+D gdk.ads		20241104074246 96d821f3 gdk%s
+D gdk-cairo.ads		20241104074246 750fb209 gdk.cairo%s
+D gdk-color.ads		20241104074246 ef57bc34 gdk.color%s
+D gdk-device.ads	20241104074246 873a4dfe gdk.device%s
+D gdk-device_tool.ads	20241104074246 7548cf02 gdk.device_tool%s
+D gdk-display.ads	20241104074246 2ca984e1 gdk.display%s
+D gdk-drag_contexts.ads	20241104074246 c0b30362 gdk.drag_contexts%s
+D gdk-drawing_context.ads  20241104074246 5ffa567a gdk.drawing_context%s
+D gdk-event.ads		20241104074246 12dba357 gdk.event%s
+D gdk-frame_clock.ads	20241104074246 b23ee86a gdk.frame_clock%s
+D gdk-frame_timings.ads	20241104074246 98b5e7d1 gdk.frame_timings%s
+D gdk-glcontext.ads	20241104074246 0725b164 gdk.glcontext%s
+D gdk-monitor.ads	20241104074246 970cbb66 gdk.monitor%s
+D gdk-pixbuf.ads	20241104074246 499fe1c7 gdk.pixbuf%s
+D gdk-rectangle.ads	20241104074246 7b900608 gdk.rectangle%s
+D gdk-rgba.ads		20241104074246 2609514a gdk.rgba%s
+D gdk-screen.ads	20241104074246 2563f3b9 gdk.screen%s
+D gdk-types.ads		20241104074246 921dc8b2 gdk.types%s
+D gdk-visual.ads	20241104074246 bf09ee2d gdk.visual%s
+D gdk-window.ads	20241104074246 c5ab0023 gdk.window%s
+D glib.ads		20241104074246 7d107887 glib%s
+D glib-action_group.ads	20241104074246 39f0dcb6 glib.action_group%s
+D glib-error.ads	20241104074246 e055fabe glib.error%s
+D glib-g_icon.ads	20241104074246 04aa38a9 glib.g_icon%s
+D glib-generic_properties.ads  20241104074246 f3dc70df glib.generic_properties%s
+D glib-glist.ads	20241104074246 65a6e1be glib.glist%s
+D glib-gslist.ads	20241104074246 953541be glib.gslist%s
+D glib-key_file.ads	20241104074246 5820d214 glib.key_file%s
+D glib-object.ads	20241104074246 fb5efa0e glib.object%s
+D glib-properties.ads	20241104074246 4118b916 glib.properties%s
+D glib-string.ads	20241104074246 1c658347 glib.string%s
+D glib-types.ads	20241104074246 86ac71ae glib.types%s
+D glib-values.ads	20241104074246 5ef3ad24 glib.values%s
+D glib-variant.ads	20241104074246 a1ae139c glib.variant%s
+D gnat.ads		20230707070819 b5988c27 gnat%s
+D g-string.ads		20230707070819 c6abc540 gnat.strings%s
+D gtk.ads		20241104074246 cfdeaf1c gtk%s
+D gtk-accel_group.ads	20241104074246 a14a159a gtk.accel_group%s
+D gtk-action.ads	20241104074246 98120d78 gtk.action%s
+D gtk-actionable.ads	20241104074246 e100f0b2 gtk.actionable%s
+D gtk-activatable.ads	20241104074246 873be5b9 gtk.activatable%s
+D gtk-adjustment.ads	20241104074246 80acb9f5 gtk.adjustment%s
+D gtk-bin.ads		20241104074246 4e8a2236 gtk.bin%s
+D gtk-box.ads		20241104074246 28f6f090 gtk.box%s
+D gtk-buildable.ads	20241104074246 42aefd00 gtk.buildable%s
+D gtk-builder.ads	20241104074246 35d802c2 gtk.builder%s
+D gtk-button.ads	20241104074246 7abde3a0 gtk.button%s
+D gtk-container.ads	20241104074246 229c6e7d gtk.container%s
+D gtk-drawing_area.ads	20241104074246 6fdc9064 gtk.drawing_area%s
+D gtk-enums.ads		20241104074246 e04a0db3 gtk.enums%s
+D gtk-frame.ads		20241104074246 c1f471f2 gtk.frame%s
+D gtk-orientable.ads	20241104074246 673b3a02 gtk.orientable%s
+D gtk-page_setup.ads	20241104074246 c68f72dc gtk.page_setup%s
+D gtk-paper_size.ads	20241104074246 28db8561 gtk.paper_size%s
+D gtk-print_context.ads	20241104074246 c6bca073 gtk.print_context%s
+D gtk-print_operation.ads  20241104074246 37a90995 gtk.print_operation%s
+D gtk-print_operation_preview.ads  20241104074246 bb6121c8 gtk.print_operation_preview%s
+D gtk-print_settings.ads  20241104074246 e6c62634 gtk.print_settings%s
+D gtk-selection_data.ads  20241104074246 061b2148 gtk.selection_data%s
+D gtk-style.ads		20241104074246 3c4cbc07 gtk.style%s
+D gtk-target_entry.ads	20241104074246 02690213 gtk.target_entry%s
+D gtk-target_list.ads	20241104074246 a9d79eb7 gtk.target_list%s
+D gtk-widget.ads	20241104074246 7e1eb2be gtk.widget%s
+D gtk-window.ads	20241104074246 1e409d40 gtk.window%s
+D gtkada.ads		20241104074246 57aea1c7 gtkada%s
+D gtkada-bindings.ads	20241104074246 fc9825de gtkada.bindings%s
+D gtkada-c.ads		20241104074246 0f5973e3 gtkada.c%s
+D gtkada-printing.ads	20241104074246 e72962c7 gtkada.printing%s
+D gtkada-types.ads	20241104074246 471f54b5 gtkada.types%s
+D interfac.ads		20230707070819 5ab55268 interfaces%s
+D i-c.ads		20230707070819 5421119b interfaces.c%s
+D i-cstrin.ads		20230707070819 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20230707070819 e53d8b8e interfaces.c_streams%s
+D pango.ads		20241104074246 e51ea573 pango%s
+D pango-attributes.ads	20241104074246 21c09ee4 pango.attributes%s
+D pango-cairo.ads	20241104074246 211c97f8 pango.cairo%s
+D pango-context.ads	20241104074246 ab3b8a9f pango.context%s
+D pango-enums.ads	20241104074246 8ddf1b71 pango.enums%s
+D pango-font.ads	20241104074246 90904519 pango.font%s
+D pango-font_face.ads	20241104074246 c62e6ce5 pango.font_face%s
+D pango-font_family.ads	20241104074246 5dd1eb29 pango.font_family%s
+D pango-font_map.ads	20241104074246 7959860d pango.font_map%s
+D pango-font_metrics.ads  20241104074246 38b0be76 pango.font_metrics%s
+D pango-fontset.ads	20241104074246 af4fe708 pango.fontset%s
+D pango-language.ads	20241104074246 d0382281 pango.language%s
+D pango-layout.ads	20241104074246 d240b716 pango.layout%s
+D pango-matrix.ads	20241104074246 50fe54f2 pango.matrix%s
+D pango-tabs.ads	20241104074246 0c575925 pango.tabs%s
+D system.ads		20230707070819 4635ec04 system%s
+D s-conca2.ads		20230707070819 02a0d7d0 system.concat_2%s
+D s-conca8.ads		20230707070819 e3074dd7 system.concat_8%s
+D s-crtl.ads		20230707070819 0ebbdb71 system.crtl%s
+D s-exctab.ads		20230707070819 54135002 system.exception_table%s
+D s-exnllf.ads		20230707070819 bc7ebbdc system.exn_llf%s
+D s-fatgen.ads		20230707070819 49cbaf86 system.fat_gen%s
+D s-fatlfl.ads		20230707070819 378cba9f system.fat_lflt%s
+D s-ficobl.ads		20230707070819 078245e4 system.file_control_block%s
+D s-finmas.ads		20230707070819 7811a767 system.finalization_masters%s
+D s-finroo.ads		20230707070819 4ff27390 system.finalization_root%s
+D s-imenne.ads		20230707070819 614c06c0 system.img_enum_new%s
+D s-imgint.ads		20230707070819 02dbe0c2 system.img_int%s
+D s-memory.ads		20230707070819 597d6634 system.memory%s
+D s-parame.ads		20230707070819 48ec542b system.parameters%s
+D s-pooglo.ads		20230707070819 ede33ef8 system.pool_global%s
+D s-secsta.ads		20230707070819 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20230707070819 a7318a92 system.soft_links%s
+D s-stache.ads		20230707070819 a37c21ec system.stack_checking%s
+D s-stalib.ads		20230707070819 09bd3940 system.standard_library%s
+D s-stalib.adb		20230707070819 f2fe2716 system.standard_library%b
+D s-stoele.ads		20230707070819 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20230707070819 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20230707070819 b16154c2 system.storage_pools%s
+D s-stposu.ads		20230707070819 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20230707070819 aedef97e system.stream_attributes%s
+D s-string.ads		20230707070819 8fe54fb7 system.strings%s
+D s-traent.ads		20230707070819 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20230707070819 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20230707070819 1b7d22d2 system.wch_con%s
+D testcairo_drawing.ads	20250125195609 12e688c1 testcairo_drawing%s
+D testcairo_drawing.adb	20250125195558 70edae96 testcairo_drawing%b
+G a e
+G c Z s b [run_test testcairo_drawing 34 14 none]
+G c Z b b [sqrt testcairo_drawing__gdouble_numerics 52 13 61_4]
+G c Z b b [log testcairo_drawing__gdouble_numerics 75 13 61_4]
+G c Z b b [log testcairo_drawing__gdouble_numerics 79 13 61_4]
+G c Z b b [exp testcairo_drawing__gdouble_numerics 83 13 61_4]
+G c Z b b [Oexpon testcairo_drawing__gdouble_numerics 86 13 61_4]
+G c Z b b [sin testcairo_drawing__gdouble_numerics 94 13 61_4]
+G c Z b b [sin testcairo_drawing__gdouble_numerics 98 13 61_4]
+G c Z b b [cos testcairo_drawing__gdouble_numerics 103 13 61_4]
+G c Z b b [cos testcairo_drawing__gdouble_numerics 107 13 61_4]
+G c Z b b [tan testcairo_drawing__gdouble_numerics 112 13 61_4]
+G c Z b b [tan testcairo_drawing__gdouble_numerics 115 13 61_4]
+G c Z b b [cot testcairo_drawing__gdouble_numerics 120 13 61_4]
+G c Z b b [cot testcairo_drawing__gdouble_numerics 123 13 61_4]
+G c Z b b [arcsin testcairo_drawing__gdouble_numerics 129 13 61_4]
+G c Z b b [arcsin testcairo_drawing__gdouble_numerics 133 13 61_4]
+G c Z b b [arccos testcairo_drawing__gdouble_numerics 137 13 61_4]
+G c Z b b [arccos testcairo_drawing__gdouble_numerics 141 13 61_4]
+G c Z b b [arctan testcairo_drawing__gdouble_numerics 145 13 61_4]
+G c Z b b [arctan testcairo_drawing__gdouble_numerics 152 13 61_4]
+G c Z b b [arccot testcairo_drawing__gdouble_numerics 160 13 61_4]
+G c Z b b [arccot testcairo_drawing__gdouble_numerics 167 13 61_4]
+G c Z b b [sinh testcairo_drawing__gdouble_numerics 175 13 61_4]
+G c Z b b [cosh testcairo_drawing__gdouble_numerics 178 13 61_4]
+G c Z b b [tanh testcairo_drawing__gdouble_numerics 182 13 61_4]
+G c Z b b [coth testcairo_drawing__gdouble_numerics 186 13 61_4]
+G c Z b b [arcsinh testcairo_drawing__gdouble_numerics 190 13 61_4]
+G c Z b b [arccosh testcairo_drawing__gdouble_numerics 193 13 61_4]
+G c Z b b [arctanh testcairo_drawing__gdouble_numerics 198 13 61_4]
+G c Z b b [arccoth testcairo_drawing__gdouble_numerics 202 13 61_4]
+G c Z b b [exp_strict testcairo_drawing__gdouble_numerics 66 13 61_4]
+G c Z b b [local_atan testcairo_drawing__gdouble_numerics 70 13 61_4]
+G c Z b b [draw_page testcairo_drawing 77 25 none]
+G c Z b b [cairo_demo_recordDA testcairo_drawing 65 9 none]
+G c Z b b [cairo_demo_recordDF testcairo_drawing 65 9 none]
+G c Z b b [cairo_demo_recordIP testcairo_drawing 65 9 none]
+G c Z b b [testcairo_print_operation_recordDA testcairo_drawing 70 9 none]
+G c Z b b [testcairo_print_operation_recordDF testcairo_drawing 70 9 none]
+G c Z b b [testcairo_print_operation_recordIP testcairo_drawing 70 9 none]
+G c Z b b [on_redraw testcairo_drawing 87 13 none]
+G c Z b b [on_print_cb testcairo_drawing 586 14 none]
+G r c none [run_test testcairo_drawing 34 14 none] [set_label gtk__frame 118 14 none]
+G r s gtk_box_record [run_test testcairo_drawing 34 14 none] [gtk_box_recordIP gtk__box 94 9 none]
+G r c none [run_test testcairo_drawing 34 14 none] [initialize_vbox gtk__box 164 14 none]
+G r c none [run_test testcairo_drawing 34 14 none] [add gtk__container 234 14 none]
+G r c none [run_test testcairo_drawing 34 14 none] [gtk_new gtk__drawing_area 118 14 none]
+G r c none [run_test testcairo_drawing 34 14 none] [pack_start gtk__box 269 14 none]
+G r c none [run_test testcairo_drawing 34 14 none] [on_draw gtk__widget 4421 14 none]
+G r c none [run_test testcairo_drawing 34 14 none] [gtk_new gtk__button 137 14 none]
+G r c none [run_test testcairo_drawing 34 14 none] [on_clicked gtk__button 495 14 none]
+G r c none [run_test testcairo_drawing 34 14 none] [show_all gtk__widget 3104 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [get_cairo_context gtk__print_context 120 13 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [gdk_new_from_file gdk__pixbuf 231 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [set_source_pixbuf gdk__cairo 49 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [paint cairo 1390 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [set_source_rgb cairo 686 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [rectangle cairo 1304 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [fill cairo 1469 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [set_source_rgba cairo 707 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [arc cairo 1169 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [create_pango_layout gtk__widget 699 13 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [from_string pango__font 434 13 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [set_font_description pango__layout 295 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [save cairo 428 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [translate cairo 990 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [push_group cairo 450 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [set_operator cairo 618 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [pop_group cairo 512 13 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [set_source cairo 667 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [destroy cairo__pattern 275 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [set_text pango__layout 512 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [move_to cairo 1108 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [show_layout pango__cairo 36 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [restore cairo 443 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [unref glib__object 78 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [free pango__font 427 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [init_rotate cairo__matrix 83 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [init_translate cairo__matrix 61 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [init_scale cairo__matrix 72 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [multiply cairo__matrix 142 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [identity_matrix cairo 1041 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [transform cairo 1022 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [unchecked_free cairo 130 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [rotate cairo 1011 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [scale cairo 1001 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [new_path cairo 1102 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [line_to cairo 1132 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [stroke cairo 1428 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [curve_to cairo 1144 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [set_dash cairo 930 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [get_dash cairo 2479 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [set_line_width cairo 843 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [set_line_cap cairo 881 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [set_antialias cairo 789 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [create_rgb cairo__pattern 136 13 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [create_rgba cairo__pattern 159 13 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [create_linear cairo__pattern 200 13 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [add_color_stop_rgb cairo__pattern 347 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [add_color_stop_rgba cairo__pattern 378 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [create_radial cairo__pattern 230 13 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [select_font_face cairo 2038 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [set_font_size cairo 2073 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [show_text cairo 2191 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [create cairo__font_options 33 13 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [get_font_options cairo 2120 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [set_antialias cairo__font_options 106 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [set_font_options cairo 2108 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [destroy cairo__font_options 55 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [text_path cairo 2231 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [stroke_extents cairo 1554 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [rotate cairo__matrix 118 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [set_font_matrix cairo 2086 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [set_markup pango__layout 648 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [rel_line_to cairo 1256 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [close_path cairo 1327 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [clip cairo 1632 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [paint_with_alpha cairo 1396 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [create_for_data_argb32 cairo__image_surface 184 13 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [set_source_surface cairo 730 14 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [create_for_data_rgb24 cairo__image_surface 191 13 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [create_for_data_a8 cairo__image_surface 198 13 none]
+G r c none [draw_page testcairo_drawing 77 25 none] [write_to_png cairo__png 33 13 none]
+G r s gtk_box_record [cairo_demo_recordIP testcairo_drawing 65 9 none] [gtk_box_recordIP gtk__box 94 9 none]
+G r s gtkada_print_operation_record [testcairo_print_operation_recordIP testcairo_drawing 70 9 none] [gtkada_print_operation_recordIP gtkada__printing 232 9 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [gdk_new_from_file gdk__pixbuf 231 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [set_source_pixbuf gdk__cairo 49 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [paint cairo 1390 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [set_source_rgb cairo 686 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [rectangle cairo 1304 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [fill cairo 1469 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [set_source_rgba cairo 707 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [arc cairo 1169 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [create_pango_layout gtk__widget 699 13 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [from_string pango__font 434 13 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [set_font_description pango__layout 295 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [save cairo 428 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [translate cairo 990 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [push_group cairo 450 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [set_operator cairo 618 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [pop_group cairo 512 13 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [set_source cairo 667 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [destroy cairo__pattern 275 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [set_text pango__layout 512 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [move_to cairo 1108 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [show_layout pango__cairo 36 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [restore cairo 443 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [unref glib__object 78 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [free pango__font 427 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [init_rotate cairo__matrix 83 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [init_translate cairo__matrix 61 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [init_scale cairo__matrix 72 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [multiply cairo__matrix 142 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [identity_matrix cairo 1041 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [transform cairo 1022 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [unchecked_free cairo 130 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [rotate cairo 1011 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [scale cairo 1001 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [new_path cairo 1102 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [line_to cairo 1132 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [stroke cairo 1428 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [curve_to cairo 1144 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [set_dash cairo 930 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [get_dash cairo 2479 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [set_line_width cairo 843 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [set_line_cap cairo 881 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [set_antialias cairo 789 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [create_rgb cairo__pattern 136 13 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [create_rgba cairo__pattern 159 13 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [create_linear cairo__pattern 200 13 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [add_color_stop_rgb cairo__pattern 347 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [add_color_stop_rgba cairo__pattern 378 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [create_radial cairo__pattern 230 13 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [select_font_face cairo 2038 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [set_font_size cairo 2073 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [show_text cairo 2191 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [create cairo__font_options 33 13 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [get_font_options cairo 2120 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [set_antialias cairo__font_options 106 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [set_font_options cairo 2108 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [destroy cairo__font_options 55 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [text_path cairo 2231 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [stroke_extents cairo 1554 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [rotate cairo__matrix 118 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [set_font_matrix cairo 2086 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [set_markup pango__layout 648 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [rel_line_to cairo 1256 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [close_path cairo 1327 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [clip cairo 1632 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [paint_with_alpha cairo 1396 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [create_for_data_argb32 cairo__image_surface 184 13 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [set_source_surface cairo 730 14 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [create_for_data_rgb24 cairo__image_surface 191 13 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [create_for_data_a8 cairo__image_surface 198 13 none]
+G r c none [on_redraw testcairo_drawing 87 13 none] [write_to_png cairo__png 33 13 none]
+G r s gtkada_print_operation_record [on_print_cb testcairo_drawing 586 14 none] [gtkada_print_operation_recordIP gtkada__printing 232 9 none]
+G r c none [on_print_cb testcairo_drawing 586 14 none] [initialize gtkada__printing 107 14 none]
+G r c none [on_print_cb testcairo_drawing 586 14 none] [set_n_pages gtk__print_operation 425 14 none]
+G r c none [on_print_cb testcairo_drawing 586 14 none] [get_toplevel gtk__widget 2223 13 none]
+G r c none [on_print_cb testcairo_drawing 586 14 none] [connect_and_run gtkada__printing 110 13 none]
+X 1 ada.ads
+16K9*Ada 20e8 140|24r6 24r23 26r6 27r6 58r48 61r36
+X 5 a-numeri.ads
+16K13*Numerics 32e17 140|26w10 27r10 58r52 61r40
+21N4*Pi 140|58r61
+X 7 a-ngelfu.ads
+39k22*Generic_Elementary_Functions 205e46 140|27w19 61r49
+94V13*Sin<91|65F9> 140|249s54[61] 264s41[61] 267s41[61] 271s41[61] 281s55[61]
+. 292s55[61] 312s55[61] 325s55[61]
+X 11 a-textio.ads
+57K13*Text_IO 727e16 140|24w10 24r27
+465U14*Put 140|556s16
+508U14*Put_Line 140|427s16 558s16
+X 14 cairo.ads
+75K9*Cairo 2893e10 140|45w6 45r25 46r6 46r25 47r6 47r25 48r6 48r31 49r6 49r30
+. 50r6 50r21 111r13 149r19 150r19 154r19 155r19 156r19 157r19 159r19 161r19
+. 162r19 163r19 164r24 165r19 166r19 170r19 171r19 174r19
+77M9*Cairo_Context<109|67M9> 140|89r15 574r13
+92M9*Cairo_Surface<109|67M9> 140|96r23
+106R9*Cairo_Matrix 113e14 140|182r22 183r23 184r23 440r22
+129P9*Cairo_Matrix_Access(106R9) 140|93r23
+130U14*Unchecked_Free[13|20] 140|218s13 219s13 220s13 445s13
+172M9*Cairo_Pattern<109|67M9> 140|94r23
+216E9*Cairo_Status 314e7 140|97r23
+428U14*Save 140|149s25
+443U14*Restore 140|174s25
+450U14*Push_Group 140|154s25
+512V13*Pop_Group{172M9} 140|164s30
+574E9*Cairo_Operator 616e7 140|147r26 148r26 169r37
+618U14*Set_Operator 140|159s25
+667U14*Set_Source 140|165s25 334s13 341s13 350s13 357s13 364s13 374s13
+686U14*Set_Source_Rgb 140|116s16 170s25 252s13 274s13 284s13 305s13 317s13
+. 370s13 383s13 416s13 438s13 474s13 479s13 493s13 497s13
+707U14*Set_Source_Rgba 140|126s16 156s25 162s25 190s16 227s16
+730U14*Set_Source_Surface 140|545s16 549s16 553s16
+774n7*Cairo_Antialias_Default{772E9} 140|409r33
+777n7*Cairo_Antialias_None{772E9} 140|328r32 406r33
+789U14*Set_Antialias 140|328s13
+843U14*Set_Line_Width 140|303s13 315s13
+868n7*Cairo_Line_Cap_Butt{867E9} 140|316r31
+871n7*Cairo_Line_Cap_Round{867E9} 140|304r31
+881U14*Set_Line_Cap 140|304s13 316s13
+926A9*Dash_Array(41|59F9)<integer>
+928a4*No_Dashes{926A9} 140|318r27
+930U14*Set_Dash 140|285s13 300s16 318s13 419s13
+990U14*Translate 140|150s25 233s16
+1001U14*Scale 140|235s16
+1011U14*Rotate 140|234s16
+1022U14*Transform 140|211s16
+1041U14*Identity_Matrix 140|208s16 230s16
+1102U14*New_Path 140|243s13
+1108U14*Move_To 140|171s25 246s13 256s13 278s13 289s13 309s13 322s13 389s13
+. 394s13 403s13 418s13 437s13 461s16 483s13
+1132U14*Line_To 140|249s16 281s16 292s16 312s16 325s16
+1144U14*Curve_To 140|262s16
+1169U14*Arc 140|129s16
+1170m7 Cr{77M9} 140|129r21
+1171f7 Xc{41|59F9} 140|130r21
+1172f7 Yc{41|59F9} 140|131r21
+1173f7 Radius{41|59F9} 140|132r21
+1174f7 Angle1{41|59F9} 140|133r21
+1175f7 Angle2{41|59F9} 140|134r21
+1256U14*Rel_Line_To 140|484s13 485s13 486s13
+1304U14*Rectangle 140|117s16 155s25 161s25 214s16 238s16 335s13 342s13 351s13
+. 358s13 365s13 375s13 478s13 498s13
+1327U14*Close_Path 140|487s13
+1390U14*Paint 140|111s19 166s25 475s13 546s16 550s16 554s16
+1396U14*Paint_With_Alpha 140|494s13
+1428U14*Stroke 140|253s13 275s13 286s13 306s13 319s13 329s13 434s13
+1469U14*Fill 140|118s16 135s16 157s25 163s25 215s16 239s16 336s13 343s13
+. 352s13 359s13 366s13 376s13 413s13 480s13 499s13
+1554U14*Stroke_Extents 140|426s16
+1632U14*Clip 140|490s13
+1938n30*Cairo_Font_Slant_Normal{1937E9} 140|386r16 397r16
+1945n31*Cairo_Font_Weight_Normal{1944E9} 140|387r16
+1946n31*Cairo_Font_Weight_Bold{1944E9} 140|398r16
+2017M9*Cairo_Font_Options<109|67M9> 140|95r23
+2038U14*Select_Font_Face 140|384s13 395s13
+2073U14*Set_Font_Size 140|388s13 399s13 417s13
+2086U14*Set_Font_Matrix 140|443s13
+2108U14*Set_Font_Options 140|407s13 410s13
+2120U14*Get_Font_Options 140|405s13
+2191U14*Show_Text 140|390s13 391s13 400s13 408s13 444s13
+2231U14*Text_Path 140|420s13
+2477P9*Dash_Array_Access(926A9) 140|296r25
+2479U14*Get_Dash 140|299s16
+X 15 cairo-font_options.ads
+31K15*Font_Options 211e23 140|49w12 49r36
+33V13*Create{14|2017M9} 140|404s20
+55U14*Destroy 140|411s13
+106U14*Set_Antialias 140|406s13 409s13
+X 16 cairo-image_surface.ads
+33K15*Image_Surface 288e24 140|48w12 48r37
+68I9*Byte<short_integer> 140|519r34 520r34 523r34 524r34 527r58
+71i7*Alpha{68I9} 140|518m25
+72i7*Red{68I9} 140|519m25 535m43 536r47
+73i7*Green{68I9} 140|520m25 537m43 538r47
+74i7*Blue{68I9} 140|521m25 539m43 540r47
+79i7*Red{68I9} 140|523m25
+80i7*Green{68I9} 140|524m25
+81i7*Blue{68I9} 140|525m25
+85A9*ARGB32_Array(70R9)<integer> 140|504r61
+86P9*ARGB32_Array_Access(85A9) 140|504r34
+88A9*RGB24_Array(78R9)<integer> 140|507r60
+89P9*RGB24_Array_Access(88A9) 140|507r34
+91A9*Byte_Array(68I9)<integer> 140|510r59
+92P9*Byte_Array_Access(91A9) 140|510r34
+184V13*Create_For_Data_ARGB32{14|92M9} 140|544s33
+191V13*Create_For_Data_RGB24{14|92M9} 140|548s33
+198V13*Create_For_Data_A8{14|92M9} 140|552s33
+X 17 cairo-matrix.ads
+31K15*Matrix 204e17 140|46w12 46r31
+61U14*Init_Translate 140|196s16
+72U14*Init_Scale 140|199s16 441s13
+83U14*Init_Rotate 140|193s16
+118U14*Rotate 140|442s13
+142U14*Multiply 140|202s16 205s16
+X 18 cairo-pattern.ads
+38K15*Pattern 669e18 140|47w12 47r31
+136V13*Create_Rgb{14|172M9} 140|333s18 356s18
+159V13*Create_Rgba{14|172M9} 140|340s18
+200V13*Create_Linear{14|172M9} 140|347s18 361s18
+230V13*Create_Radial{14|172M9} 140|371s18
+275U14*Destroy 140|167s19 337s13 344s13 353s13 360s13 367s13 377s13
+347U14*Add_Color_Stop_Rgb 140|348s13 349s13
+378U14*Add_Color_Stop_Rgba 140|362s13 363s13 372s13 373s13
+X 19 cairo-png.ads
+31K15*Png 71e14 140|50w12 50r27
+33V13*Write_To_Png{14|216E9} 140|557s26
+X 20 cairo-region.ads
+37M9*Cairo_Region<109|67M9>
+X 21 gdk.ads
+38K9*Gdk 48e8 140|33r6 34r6 34r22 108r16
+43P9*Gdk_Window<41|153P9>
+46P9*Gdk_Visual<41|153P9>
+X 22 gdk-cairo.ads
+37K13*Cairo 85e14 140|33w10 108r20
+49U14*Set_Source_Pixbuf 140|108s26
+X 24 gdk-device.ads
+48P9*Gdk_Device(47R9)
+72V13*Convert{109|67M9} 46|58i21
+73V13*Convert{48P9} 46|59i21
+X 26 gdk-display.ads
+55P9*Gdk_Display(54R9)
+X 27 gdk-drag_contexts.ads
+34P9*Drag_Context(33R9)
+X 29 gdk-event.ads
+173M9*Gdk_Event_Mask
+X 30 gdk-frame_clock.ads
+69P9*Gdk_Frame_Clock(68R9)
+X 34 gdk-pixbuf.ads
+51K13*Pixbuf 624e15 140|34w10 34r26
+55P9*Gdk_Pixbuf(53R9) 140|59r17
+231U14*Gdk_New_From_File 140|104s16
+X 37 gdk-screen.ads
+53P9*Gdk_Screen(52R9)
+X 38 gdk-types.ads
+167M9*Gdk_Modifier_Type<41|55M9>
+X 39 gdk-visual.ads
+78V13*Convert[12|20]{109|67M9} 46|58i21
+80V13*Convert[12|20]{21|46P9} 46|59i21
+X 40 gdk-window.ads
+309V13*Convert{109|67M9} 46|58i21
+310V13*Convert{21|43P9} 46|59i21
+X 41 glib.ads
+38K9*Glib 429e9 140|29w6 29r16 30r6 31r6 31r23 99r23
+49I9*Gint<91|35I9> 140|80r21 572r21
+55M9*Guint<91|43M9>
+59F9*Gdouble<91|65F9> 140|58r22 58r33 62r7 92r23 115r21 123r21 152r30 153r30
+. 187r21 224r21 248r21 258r22 259r23 260r23 280r21 291r21 297r25 311r21 324r21
+. 424r41
+71M9*Gsize<91|60M9>
+79A12*UTF8_String{string}<integer>
+153P9*C_Proxy(150R9)
+284M9*GType<71M9>
+X 42 glib-action_group.ads
+84M9*Gaction_Group<52|90M9>
+X 43 glib-error.ads
+33K14*Error 68e15 140|30w11 99r28
+36P9*GError<41|153P9> 140|99r34
+X 46 glib-glist.ads
+65R12*Glist
+X 49 glib-object.ads
+38K14*Object 764e16 140|31w11 31r28
+40R9*GObject_Record 722e14 140|88r22 586r41
+41P9*GObject(40R9)
+55V13*Get_Type{41|284M9}
+72U14*Ref
+78U14*Unref 140|177R16 457R16 468R16
+106U14*Deallocate
+119U14*Ref_Sink
+494U14*Notify
+675V13*Convert{109|67M9} 46|58i21 47|49i21
+676V13*Convert{41P9} 46|59i21 47|50i21
+X 52 glib-types.ads
+90M9*GType_Interface<109|67M9>
+X 57 gtk.ads
+41K9*Gtk 79e8 139|24r6 24r22 25r6 25r22 35r23 42r34 140|36r6 36r31 37r6 37r31
+. 38r6 38r31 39r6 39r31 40r6 40r31 41r6 41r31
+X 62 gtk-adjustment.ads
+56P9*Gtk_Adjustment(55R9)
+X 64 gtk-box.ads
+92K13*Box 407e12 140|36w10 36r35
+94R9*Gtk_Box_Record<68|210R9> 94e68 140|65r34
+164U14*Initialize_Vbox 140|619s7
+166b8 Homogeneous{boolean} 140|619r29
+190V13*Get_Baseline_Position{70|147E9}
+196U14*Set_Baseline_Position
+207V13*Get_Center_Widget{83|351P9}
+212U14*Set_Center_Widget
+221V13*Get_Homogeneous{boolean}
+226U14*Set_Homogeneous
+234V13*Get_Spacing{41|49I9}
+238U14*Set_Spacing
+245U14*Pack_End
+269U14*Pack_Start 140|623R11 627R11
+272b8 Expand{boolean} 140|623r29 627r31
+273b8 Fill{boolean} 140|623r45
+293U14*Query_Child_Packing
+307U14*Set_Child_Packing
+321U14*Reorder_Child
+336V13*Get_Child{83|351P9}
+349V13*Get_Orientation{70|259E9}
+353U14*Set_Orientation
+X 67 gtk-button.ads
+71K13*Button 613e15 140|37w10 37r35
+74P9*Gtk_Button(73R9) 140|613r16
+137U14*Gtk_New 140|626s7
+495U14*On_Clicked 140|628R14
+X 68 gtk-container.ads
+234U14*Add 140|620R13
+252U14*Check_Resize
+254U14*Child_Get_Property
+264U14*Child_Set_Property
+274U14*Child_Notify
+287U14*Child_Notify_By_Pspec
+299V13*Child_Type{41|284M9}
+306U14*Forall
+346U14*Foreach
+389V13*Get_Border_Width{41|55M9}
+394U14*Set_Border_Width
+408V13*Get_Children{46|65R12[83|440]}
+414V13*Get_Focus_Child{83|351P9}
+422U14*Set_Focus_Child
+434V13*Get_Focus_Hadjustment{62|56P9}
+440U14*Set_Focus_Hadjustment
+454V13*Get_Focus_Vadjustment{62|56P9}
+460U14*Set_Focus_Vadjustment
+474V13*Get_Path_For_Child{83|395P9}
+482V13*Get_Resize_Mode{70|423E9}
+490U14*Set_Resize_Mode
+501U14*Propagate_Draw
+524U14*Remove
+538U14*Resize_Children
+543U14*Set_Focus_Chain
+556U14*Set_Reallocate_Redraws
+567U14*Unset_Focus_Chain
+601U14*On_Add
+605U14*On_Add
+617U14*On_Check_Resize
+621U14*On_Check_Resize
+628U14*On_Remove
+632U14*On_Remove
+639U14*On_Set_Focus_Child
+643U14*On_Set_Focus_Child
+X 69 gtk-drawing_area.ads
+109K13*Drawing_Area 149e21 140|38w10 38r35
+112P9*Gtk_Drawing_Area(111R9) 140|612r16
+118U14*Gtk_New 140|622s7
+X 70 gtk-enums.ads
+511M9*Gtk_State_Flags
+882V13*Convert{109|67M9} 46|58i21 47|49i21
+883V13*Convert{string} 46|59i21 47|50i21
+X 71 gtk-frame.ads
+81K13*Frame 223e14 139|24w10 24r26 35r27 42r38
+83R9*Gtk_Frame_Record<63|45R9> 83e64 139|35r33 42r44 140|608r23 637r34
+118U14*Set_Label 140|615R13
+X 73 gtk-page_setup.ads
+73P9*Gtk_Page_Setup(72R9)
+X 74 gtk-paper_size.ads
+332V13*Convert{109|67M9} 46|58i21
+333V13*Convert{49R9} 46|59i21
+X 75 gtk-print_context.ads
+90K13*Print_Context 193e22 140|39w10 39r35
+93P9*Gtk_Print_Context(92R9) 140|79r21 571r21
+120V13*Get_Cairo_Context{14|77M9} 140|578R13
+X 76 gtk-print_operation.ads
+95K13*Print_Operation 1043e24 140|40w10 40r35
+114E9*Gtk_Print_Operation_Result 118e26 140|589r18
+123n7*Action_Print_Dialog{122E9} 140|600r21
+183U14*Cancel
+191U14*Draw_Page_Finish
+200V13*Get_Default_Page_Setup{73|73P9}
+207U14*Set_Default_Page_Setup
+217V13*Get_Embed_Page_Setup{boolean}
+223U14*Set_Embed_Page_Setup
+233U14*Get_Error
+241V13*Get_Has_Selection{boolean}
+247U14*Set_Has_Selection
+257V13*Get_N_Pages_To_Print{41|49I9}
+270V13*Get_Print_Settings{78|51P9}
+279U14*Set_Print_Settings
+288V13*Get_Status{100E9}
+295V13*Get_Status_String{41|79A12}
+304V13*Get_Support_Selection{boolean}
+310U14*Set_Support_Selection
+318V13*Is_Finished{boolean}
+328V13*Run{114E9}
+368U14*Set_Allow_Async
+377U14*Set_Current_Page
+387U14*Set_Custom_Tab_Label
+394U14*Set_Defer_Drawing
+402U14*Set_Export_Filename
+415U14*Set_Job_Name
+425U14*Set_N_Pages 140|596R16
+440U14*Set_Show_Progress
+448U14*Set_Track_Print_Status
+460U14*Set_Unit
+469U14*Set_Use_Full_Page
+486U14*End_Preview
+489V13*Is_Selected{boolean}
+493U14*Render_Page
+650U14*On_Begin_Print
+654U14*On_Begin_Print
+676U14*On_Create_Custom_Widget
+680U14*On_Create_Custom_Widget
+710U14*On_Custom_Widget_Apply
+714U14*On_Custom_Widget_Apply
+735U14*On_Done
+739U14*On_Done
+766U14*On_Draw_Page
+770U14*On_Draw_Page
+805U14*On_End_Print
+809U14*On_End_Print
+829U14*On_Paginate
+833U14*On_Paginate
+871U14*On_Preview
+875U14*On_Preview
+917U14*On_Request_Page_Setup
+921U14*On_Request_Page_Setup
+943U14*On_Status_Changed
+947U14*On_Status_Changed
+970U14*On_Update_Custom_Widget
+974U14*On_Update_Custom_Widget
+X 78 gtk-print_settings.ads
+51P9*Gtk_Print_Settings(50R9)
+X 80 gtk-style.ads
+57P9*Gtk_Style(56R9)
+X 83 gtk-widget.ads
+348K13*Widget 5606e15 139|25w10 25r26
+351P9*Gtk_Widget(350R9)
+395P9*Gtk_Widget_Path<41|153P9>
+438V13*Convert{109|67M9} 46|58i21 47|49i21
+439V13*Convert{351P9} 46|59i21 47|50i21
+506V13*Activate{boolean}
+513U14*Add_Accelerator
+534U14*Add_Device_Events
+544U14*Add_Events
+552U14*Add_Mnemonic_Label
+565V13*Add_Tick_Callback{41|55M9}
+635V13*Can_Activate_Accel{boolean}
+647V13*Child_Focus{boolean}
+668U14*Child_Notify
+678V13*Compute_Expand{boolean}
+692V13*Create_Pango_Context{97|44P9}
+699V13*Create_Pango_Layout{106|63P9} 140|143R26 453R26 462R26
+710U14*Destroy
+737U14*Destroyed
+748V13*Device_Is_Shadowed{boolean}
+759V13*Drag_Begin_With_Coordinates{27|34P9}
+803V13*Drag_Check_Threshold{boolean}
+817U14*Drag_Dest_Add_Image_Targets
+826U14*Drag_Dest_Add_Text_Targets
+834U14*Drag_Dest_Add_Uri_Targets
+842V13*Drag_Dest_Get_Track_Motion{boolean}
+848U14*Drag_Dest_Set_Track_Motion
+859U14*Drag_Dest_Set_Proxy
+873U14*Drag_Dest_Unset
+877U14*Drag_Get_Data
+895U14*Drag_Highlight
+900U14*Drag_Source_Add_Image_Targets
+909U14*Drag_Source_Add_Text_Targets
+917U14*Drag_Source_Add_Uri_Targets
+925U14*Drag_Source_Set_Icon_Name
+934U14*Drag_Source_Set_Icon_Pixbuf
+942U14*Drag_Source_Set_Icon_Stock
+951U14*Drag_Source_Unset
+954U14*Drag_Unhighlight
+957U14*Draw
+976U14*Ensure_Style
+984U14*Error_Bell
+993V13*Event{boolean}
+1005U14*Freeze_Child_Notify
+1012V13*Get_Action_Group{42|84M9}
+1022V13*Get_Allocated_Baseline{41|49I9}
+1030V13*Get_Allocated_Height{41|49I9}
+1036U14*Get_Allocated_Size
+1051V13*Get_Allocated_Width{41|49I9}
+1057U14*Get_Allocation
+1078U14*Set_Allocation
+1092V13*Get_Ancestor{351P9}
+1105V13*Get_App_Paintable{boolean}
+1112U14*Set_App_Paintable
+1127V13*Get_Can_Default{boolean}
+1133U14*Set_Can_Default
+1141V13*Get_Can_Focus{boolean}
+1147U14*Set_Can_Focus
+1155U14*Get_Child_Requisition
+1176V13*Get_Child_Visible{boolean}
+1183U14*Set_Child_Visible
+1201U14*Get_Clip
+1212U14*Set_Clip
+1226V13*Get_Composite_Name{41|79A12}
+1232U14*Set_Composite_Name
+1241V13*Get_Device_Enabled{boolean}
+1250U14*Set_Device_Enabled
+1263V13*Get_Device_Events{29|173M9}
+1273U14*Set_Device_Events
+1292V13*Get_Direction{70|557E9}
+1298U14*Set_Direction
+1314V13*Get_Display{26|55P9}
+1325V13*Get_Double_Buffered{boolean}
+1331U14*Set_Double_Buffered
+1358V13*Get_Events{29|173M9}
+1368U14*Set_Events
+1383V13*Get_Focus_On_Click{boolean}
+1389U14*Set_Focus_On_Click
+1400V13*Get_Font_Map{102|57P9}
+1406U14*Set_Font_Map
+1415V13*Get_Font_Options{14|2017M9}
+1423U14*Set_Font_Options
+1433V13*Get_Frame_Clock{30|69P9}
+1456V13*Get_Halign{353E9}
+1464U14*Set_Halign
+1471V13*Get_Has_Tooltip{boolean}
+1477U14*Set_Has_Tooltip
+1485V13*Get_Has_Window{boolean}
+1491U14*Set_Has_Window
+1506V13*Get_Hexpand{boolean}
+1520U14*Set_Hexpand
+1544V13*Get_Hexpand_Set{boolean}
+1554U14*Set_Hexpand_Set
+1569V13*Get_Mapped{boolean}
+1574U14*Set_Mapped
+1583V13*Get_Margin_Bottom{41|49I9}
+1588U14*Set_Margin_Bottom
+1596V13*Get_Margin_End{41|49I9}
+1601U14*Set_Margin_End
+1609V13*Get_Margin_Left{41|49I9}
+1616U14*Set_Margin_Left
+1626V13*Get_Margin_Right{41|49I9}
+1633U14*Set_Margin_Right
+1643V13*Get_Margin_Start{41|49I9}
+1648U14*Set_Margin_Start
+1656V13*Get_Margin_Top{41|49I9}
+1661U14*Set_Margin_Top
+1669V13*Get_Modifier_Mask{38|167M9}
+1678V13*Get_Name{41|79A12}
+1683U14*Set_Name
+1696V13*Get_No_Show_All{boolean}
+1703U14*Set_No_Show_All
+1713V13*Get_Opacity{41|59F9}
+1719U14*Set_Opacity
+1736V13*Get_Pango_Context{97|44P9}
+1747V13*Get_Parent{351P9}
+1751U14*Set_Parent
+1761V13*Get_Parent_Window{21|43P9}
+1765U14*Set_Parent_Window
+1776V13*Get_Path{395P9}
+1782U14*Get_Pointer
+1796U14*Get_Preferred_Height
+1811U14*Get_Preferred_Height_And_Baseline_For_Width
+1837U14*Get_Preferred_Height_For_Width
+1854U14*Get_Preferred_Size
+1874U14*Get_Preferred_Width
+1889U14*Get_Preferred_Width_For_Height
+1906V13*Get_Realized{boolean}
+1911U14*Set_Realized
+1921V13*Get_Receives_Default{boolean}
+1929U14*Set_Receives_Default
+1939V13*Get_Request_Mode{70|497E9}
+1949U14*Get_Requisition
+1963V13*Get_Root_Window{21|43P9}
+1976V13*Get_Scale_Factor{41|49I9}
+1984V13*Get_Screen{37|53P9}
+1995V13*Get_Sensitive{boolean}
+2003U14*Set_Sensitive
+2012U14*Get_Size_Request
+2025U14*Set_Size_Request
+2056U14*Size_Request
+2074V13*Get_State{70|532E9}
+2082U14*Set_State
+2092V13*Get_State_Flags{70|511M9}
+2105U14*Set_State_Flags
+2125V13*Get_Style{80|57P9}
+2132U14*Set_Style
+2142V13*Get_Support_Multidevice{boolean}
+2147U14*Set_Support_Multidevice
+2158V13*Get_Template_Child{49|41P9}
+2172V13*Get_Tooltip_Markup{41|79A12}
+2177U14*Set_Tooltip_Markup
+2190V13*Get_Tooltip_Text{41|79A12}
+2195U14*Set_Tooltip_Text
+2206V13*Get_Tooltip_Window{351P9}
+2213U14*Set_Tooltip_Window
+2223V13*Get_Toplevel{351P9} 140|600R54
+2245V13*Get_Valign{353E9}
+2255U14*Set_Valign
+2262V13*Get_Valign_With_Baseline{353E9}
+2268V13*Get_Vexpand{boolean}
+2273U14*Set_Vexpand
+2280V13*Get_Vexpand_Set{boolean}
+2286U14*Set_Vexpand_Set
+2294V13*Get_Visible{boolean}
+2303U14*Set_Visible
+2315V13*Get_Visual{39|37P12}
+2320U14*Set_Visual
+2331V13*Get_Window{21|43P9}
+2336U14*Set_Window
+2350U14*Grab_Add
+2358U14*Grab_Default
+2368U14*Grab_Focus
+2378U14*Grab_Remove
+2384V13*Has_Default{boolean}
+2390V13*Has_Focus{boolean}
+2397V13*Has_Grab{boolean}
+2404V13*Has_Rc_Style{boolean}
+2412V13*Has_Screen{boolean}
+2419V13*Has_Visible_Focus{boolean}
+2431U14*Hide
+2435V13*Hide_On_Delete{boolean}
+2445V13*In_Destruction{boolean}
+2450U14*Init_Template
+2468U14*Input_Shape_Combine_Region
+2477V13*Intersect{boolean}
+2488V13*Is_Ancestor{boolean}
+2495V13*Is_Composited{boolean}
+2507V13*Is_Drawable{boolean}
+2513V13*Is_Focus{boolean}
+2520V13*Is_Sensitive{boolean}
+2526V13*Is_Toplevel{boolean}
+2534V13*Is_Visible{boolean}
+2542V13*Keynav_Failed{boolean}
+2570V13*List_Action_Prefixes{135|54A9}
+2577V13*List_Mnemonic_Labels{46|65R12[440]}
+2589U14*Map
+2593V13*Mnemonic_Activate{boolean}
+2599U14*Modify_Base
+2621U14*Modify_Bg
+2642U14*Modify_Cursor
+2661U14*Modify_Fg
+2675U14*Modify_Font
+2686U14*Modify_Text
+2701U14*Override_Background_Color
+2715U14*Override_Color
+2746U14*Override_Cursor
+2765U14*Override_Font
+2776U14*Override_Symbolic_Color
+2792U14*Queue_Allocate
+2801U14*Queue_Compute_Expand
+2808U14*Queue_Draw
+2812U14*Queue_Draw_Area
+2832U14*Queue_Draw_Region
+2846U14*Queue_Resize
+2857U14*Queue_Resize_No_Redraw
+2863U14*Realize
+2880V13*Region_Intersect{20|37M9}
+2893U14*Register_Window
+2906V13*Remove_Accelerator{boolean}
+2917U14*Remove_Mnemonic_Label
+2927U14*Remove_Tick_Callback
+2935V13*Render_Icon{34|55P9}
+2958V13*Render_Icon_Pixbuf{34|55P9}
+2978U14*Reparent
+2987U14*Reset_Rc_Styles
+2995U14*Reset_Style
+3002V13*Send_Expose{41|49I9}
+3018V13*Send_Focus_Change{boolean}
+3040U14*Set_Accel_Path
+3065U14*Set_Redraw_On_Allocate
+3085U14*Shape_Combine_Region
+3093U14*Show
+3104U14*Show_All 140|630R13
+3108U14*Show_Now
+3114U14*Size_Allocate
+3129U14*Size_Allocate_With_Baseline
+3149U14*Style_Attach
+3161U14*Style_Get_Property
+3169U14*Thaw_Child_Notify
+3174U14*Translate_Coordinates
+3192U14*Trigger_Tooltip_Query
+3198U14*Unmap
+3202U14*Unparent
+3207U14*Unrealize
+3212U14*Unregister_Window
+3221U14*Unset_State_Flags
+3789U14*On_Accel_Closures_Changed
+3793U14*On_Accel_Closures_Changed
+3808U14*On_Button_Press_Event
+3812U14*On_Button_Press_Event
+3831U14*On_Button_Release_Event
+3835U14*On_Button_Release_Event
+3862U14*On_Can_Activate_Accel
+3866U14*On_Can_Activate_Accel
+3890U14*On_Child_Notify
+3894U14*On_Child_Notify
+3904U14*On_Composited_Changed
+3908U14*On_Composited_Changed
+3925U14*On_Configure_Event
+3929U14*On_Configure_Event
+3955U14*On_Damage_Event
+3959U14*On_Damage_Event
+3982U14*On_Delete_Event
+3986U14*On_Delete_Event
+4003U14*On_Destroy
+4007U14*On_Destroy
+4019U14*On_Destroy_Event
+4023U14*On_Destroy_Event
+4051U14*On_Direction_Changed
+4055U14*On_Direction_Changed
+4072U14*On_Drag_Begin
+4076U14*On_Drag_Begin
+4090U14*On_Drag_Data_Delete
+4094U14*On_Drag_Data_Delete
+4120U14*On_Drag_Data_Get
+4124U14*On_Drag_Data_Get
+4162U14*On_Drag_Data_Received
+4166U14*On_Drag_Data_Received
+4232U14*On_Drag_Drop
+4236U14*On_Drag_Drop
+4260U14*On_Drag_End
+4264U14*On_Drag_End
+4284U14*On_Drag_Failed
+4288U14*On_Drag_Failed
+4315U14*On_Drag_Leave
+4319U14*On_Drag_Leave
+4339U14*On_Drag_Motion
+4343U14*On_Drag_Motion
+4417U14*On_Draw
+4421U14*On_Draw 140|624R12
+4457U14*On_Enter_Notify_Event
+4461U14*On_Enter_Notify_Event
+4480U14*On_Event
+4484U14*On_Event
+4512U14*On_Event_After
+4516U14*On_Event_After
+4534U14*On_Focus
+4538U14*On_Focus
+4556U14*On_Focus_In_Event
+4560U14*On_Focus_In_Event
+4577U14*On_Focus_Out_Event
+4581U14*On_Focus_Out_Event
+4606U14*On_Grab_Broken_Event
+4610U14*On_Grab_Broken_Event
+4628U14*On_Grab_Focus
+4632U14*On_Grab_Focus
+4647U14*On_Grab_Notify
+4651U14*On_Grab_Notify
+4664U14*On_Hide
+4668U14*On_Hide
+4685U14*On_Hierarchy_Changed
+4689U14*On_Hierarchy_Changed
+4708U14*On_Key_Press_Event
+4712U14*On_Key_Press_Event
+4732U14*On_Key_Release_Event
+4736U14*On_Key_Release_Event
+4754U14*On_Keynav_Failed
+4758U14*On_Keynav_Failed
+4773U14*On_Leave_Notify_Event
+4777U14*On_Leave_Notify_Event
+4796U14*On_Map
+4800U14*On_Map
+4824U14*On_Map_Event
+4828U14*On_Map_Event
+4854U14*On_Mnemonic_Activate
+4858U14*On_Mnemonic_Activate
+4880U14*On_Motion_Notify_Event
+4884U14*On_Motion_Notify_Event
+4911U14*On_Move_Focus
+4915U14*On_Move_Focus
+4922U14*On_Parent_Set
+4926U14*On_Parent_Set
+4942U14*On_Popup_Menu
+4946U14*On_Popup_Menu
+4971U14*On_Property_Notify_Event
+4975U14*On_Property_Notify_Event
+5000U14*On_Proximity_In_Event
+5004U14*On_Proximity_In_Event
+5020U14*On_Proximity_Out_Event
+5024U14*On_Proximity_Out_Event
+5056U14*On_Query_Tooltip
+5060U14*On_Query_Tooltip
+5087U14*On_Realize
+5091U14*On_Realize
+5109U14*On_Screen_Changed
+5113U14*On_Screen_Changed
+5130U14*On_Scroll_Event
+5134U14*On_Scroll_Event
+5162U14*On_Selection_Clear_Event
+5166U14*On_Selection_Clear_Event
+5192U14*On_Selection_Get
+5196U14*On_Selection_Get
+5205U14*On_Selection_Notify_Event
+5209U14*On_Selection_Notify_Event
+5229U14*On_Selection_Received
+5233U14*On_Selection_Received
+5242U14*On_Selection_Request_Event
+5246U14*On_Selection_Request_Event
+5260U14*On_Show
+5264U14*On_Show
+5281U14*On_Show_Help
+5285U14*On_Show_Help
+5304U14*On_Size_Allocate
+5308U14*On_Size_Allocate
+5323U14*On_State_Changed
+5327U14*On_State_Changed
+5344U14*On_State_Flags_Changed
+5348U14*On_State_Flags_Changed
+5365U14*On_Style_Set
+5369U14*On_Style_Set
+5384U14*On_Style_Updated
+5388U14*On_Style_Updated
+5402U14*On_Touch_Event
+5406U14*On_Touch_Event
+5413U14*On_Unmap
+5417U14*On_Unmap
+5430U14*On_Unmap_Event
+5434U14*On_Unmap_Event
+5452U14*On_Unrealize
+5456U14*On_Unrealize
+5475U14*On_Visibility_Notify_Event
+5479U14*On_Visibility_Notify_Event
+5505U14*On_Window_State_Event
+5509U14*On_Window_State_Event
+X 84 gtk-window.ads
+90K13*Window 1774e15 140|41w10 41r35
+93P9*Gtk_Window(92R9) 140|600r42
+X 85 gtkada.ads
+30K9*Gtkada 34e11 140|43r6 43r31 594r7
+X 88 gtkada-printing.ads
+100K16*Printing 235e20 140|43w13 43r38 594r14
+102R9*Gtkada_Print_Operation_Record<76|97R9> 233e17 140|70r49
+107U14*Initialize 140|594s23
+110V13*Connect_And_Run{76|114E9} 140|599s17
+142U14*Begin_Print
+152U14*Done
+166U14*End_Print
+174V13*Paginate{boolean}
+190V13*Preview{boolean}
+215U14*Request_Page_Setup
+224U14*Status_Changed
+X 91 i-c.ads
+35I9*int<integer>
+43M9*unsigned
+60M9*size_t
+65F9*double<long_float>
+X 94 pango.ads
+35K9*Pango 45e10 140|52r6 52r24 53r6 53r24 54r6 54r24 144r24 172r19
+X 95 pango-attributes.ads
+41P9*Pango_Attribute<41|153P9>
+52V13*Convert{109|67M9} 47|49i21
+53V13*Convert{41P9} 47|50i21
+X 96 pango-cairo.ads
+34K15*Cairo 40e16 140|52w12 52r30 172r25
+36U14*Show_Layout 140|172s31 456s16 467s16
+X 97 pango-context.ads
+44P9*Pango_Context(43R9)
+X 99 pango-font.ads
+46K15*Font 466e15 140|54w12 54r30 144r30
+51P9*Pango_Font_Description<41|153P9> 140|141r25 450r25
+427U14*Free 140|178s16 458s16 469s16
+434V13*From_String{51P9} 140|144s35 452s24 460s24
+X 102 pango-font_map.ads
+57P9*Pango_Font_Map(56R9)
+X 106 pango-layout.ads
+60K15*Layout 822e17 140|53w12 53r30
+63P9*Pango_Layout(62R9) 140|140r25 449r25
+295U14*Set_Font_Description 140|145R16 455R16 466R16
+512U14*Set_Text 140|169R19
+648U14*Set_Markup 140|463R23
+X 109 system.ads
+67M9*Address
+X 122 s-memory.ads
+53V13*Alloc{109|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{109|67M9} 105i<c,__gnat_realloc>22
+X 129 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+X 135 s-string.ads
+45P9*String_Access(string)
+54A9*String_List(45P9)<integer>
+X 139 testcairo_drawing.ads
+27K9*Testcairo_Drawing 44l5 44e22 140|56b14 641l5 641t22
+29E9*Test_Type 31e68 36r16 41r14 140|66r14 609r16
+29n23*Rectangles{29E9} 140|113r15
+29n35*Transparency{29E9} 140|121r15
+29n49*Operators{29E9} 140|138r15
+29n60*Matrix{29E9} 140|181r15
+30n23*Transformations{29E9} 140|222r15
+30n40*Paths{29E9} 140|242r15
+30n47*Patterns{29E9} 140|331r15
+30n57*Clip_And_Paint{29E9} 140|472r15
+31n23*Surface_And_Png{29E9} 140|496r15
+31n40*Toy_Text{29E9} 140|379r15
+31n50*Pango_Text{29E9} 140|447r15
+31n62*Image{29E9} 140|102r15
+34U14*Run_Test 35^8 36>8 140|607b14 631l8 631t16 639s7
+35p8 Frame(71|83R9) 140|608b8 615r7 620r7 630r7
+36e8 Test{29E9} 140|609b8 615r43 618r19
+41e7 Test{29E9} 140|639r24
+42u14*Run 42^19 140|637b14 640l8 640t11
+42p19 Frame(71|83R9) 140|637b19 639r17
+X 140 testcairo_drawing.adb
+58f4 Two_Pi{41|59F9} 134r31 193r32 234r28 249r59 264r46 267r46 271r46 281r60
+. 292r60 312r60 325r60
+59p4 Background{34|55P9} 103r16 104m35 104r35 107r16 108r49
+61K12 Gdouble_Numerics[7|39] 63r8
+65R9 Cairo_Demo_Record<64|94R9> 49|55p13 72p14 78p14 106p14 119p14 494p14
+. 64|190p13 196p14 207p13 212p14 221p13 226p14 234p13 238p14 245p14 269p14
+. 293p14 307p14 321p14 336p13 349p13 353p14 68|234p14 252p14 254p14 264p14
+. 274p14 287p14 299p13 306p14 346p14 389p13 394p14 408p13 414p13 422p14 434p13
+. 440p14 454p13 460p14 474p13 482p13 490p14 501p14 524p14 538p14 543p14 556p14
+. 567p14 601p14 605p14 617p14 621p14 628p14 632p14 639p14 643p14 83|506p13
+. 513p14 534p14 544p14 552p14 565p13 635p13 647p13 668p14 678p13 692p13 699p13
+. 710p14 737p14 748p13 759p13 803p13 817p14 826p14 834p14 842p13 848p14 859p14
+. 873p14 877p14 895p14 900p14 909p14 917p14 925p14 934p14 942p14 951p14 954p14
+. 957p14 976p14 984p14 993p13 1005p14 1012p13 1022p13 1030p13 1036p14 1051p13
+. 1057p14 1078p14 1092p13 1105p13 1112p14 1127p13 1133p14 1141p13 1147p14
+. 1155p14 1176p13 1183p14 1201p14 1212p14 1226p13 1232p14 1241p13 1250p14
+. 1263p13 1273p14 1292p13 1298p14 1314p13 1325p13 1331p14 1358p13 1368p14
+. 1383p13 1389p14 1400p13 1406p14 1415p13 1423p14 1433p13 1456p13 1464p14
+. 1471p13 1477p14 1485p13 1491p14 1506p13 1520p14 1544p13 1554p14 1569p13
+. 1574p14 1583p13 1588p14 1596p13 1601p14 1609p13 1616p14 1626p13 1633p14
+. 1643p13 1648p14 1656p13 1661p14 1669p13 1678p13 1683p14 1696p13 1703p14
+. 1713p13 1719p14 1736p13 1747p13 1751p14 1761p13 1765p14 1776p13 1782p14
+. 1796p14 1811p14 1837p14 1854p14 1874p14 1889p14 1906p13 1911p14 1921p13
+. 1929p14 1939p13 1949p14 1963p13 1976p13 1984p13 1995p13 2003p14 2012p14
+. 2025p14 2056p14 2074p13 2082p14 2092p13 2105p14 2125p13 2132p14 2142p13
+. 2147p14 2158p13 2172p13 2177p14 2190p13 2195p14 2206p13 2213p14 2223p13
+. 2245p13 2255p14 2262p13 2268p13 2273p14 2280p13 2286p14 2294p13 2303p14
+. 2315p13 2320p14 2331p13 2336p14 2350p14 2358p14 2368p14 2378p14 2384p13
+. 2390p13 2397p13 2404p13 2412p13 2419p13 2431p14 2435p13 2445p13 2450p14
+. 2468p14 2477p13 2488p13 2495p13 2507p13 2513p13 2520p13 2526p13 2534p13
+. 2542p13 2570p13 2577p13 2589p14 2593p13 2599p14 2621p14 2642p14 2661p14
+. 2675p14 2686p14 2701p14 2715p14 2746p14 2765p14 2776p14 2792p14 2801p14
+. 2808p14 2812p14 2832p14 2846p14 2857p14 2863p14 2880p13 2893p14 2906p13
+. 2917p14 2927p14 2935p13 2958p13 2978p14 2987p14 2995p14 3002p13 3018p13
+. 3040p14 3065p14 3085p14 3093p14 3104p14 3108p14 3114p14 3129p14 3149p14
+. 3161p14 3169p14 3174p14 3192p14 3198p14 3202p14 3207p14 3212p14 3221p14
+. 3789p14 3793p14 3808p14 3812p14 3831p14 3835p14 3862p14 3866p14 3890p14
+. 3894p14 3904p14 3908p14 3925p14 3929p14 3955p14 3959p14 3982p14 3986p14
+. 4003p14 4007p14 4019p14 4023p14 4051p14 4055p14 4072p14 4076p14 4090p14
+. 4094p14 4120p14 4124p14 4162p14 4166p14 4232p14 4236p14 4260p14 4264p14
+. 4284p14 4288p14 4315p14 4319p14 4339p14 4343p14 4417p14 4421p14 4457p14
+. 4461p14 4480p14 4484p14 4512p14 4516p14 4534p14 4538p14 4556p14 4560p14
+. 4577p14 4581p14 4606p14 4610p14 4628p14 4632p14 4647p14 4651p14 4664p14
+. 4668p14 4685p14 4689p14 4708p14 4712p14 4732p14 4736p14 4754p14 4758p14
+. 4773p14 4777p14 4796p14 4800p14 4824p14 4828p14 4854p14 4858p14 4880p14
+. 4884p14 4911p14 4915p14 4922p14 4926p14 4942p14 4946p14 4971p14 4975p14
+. 5000p14 5004p14 5020p14 5024p14 5056p14 5060p14 5087p14 5091p14 5109p14
+. 5113p14 5130p14 5134p14 5162p14 5166p14 5192p14 5196p14 5205p14 5209p14
+. 5229p14 5233p14 5242p14 5246p14 5260p14 5264p14 5281p14 5285p14 5304p14
+. 5308p14 5323p14 5327p14 5344p14 5348p14 5365p14 5369p14 5384p14 5388p14
+. 5402p14 5406p14 5413p14 5417p14 5430p14 5434p14 5452p14 5456p14 5475p14
+. 5479p14 5505p14 5509p14 140|67e14 68r34 617r18
+66e7*Test{139|29E9} 101r16 618m11
+68P9 Cairo_Demo(65R9) 72r16 91r22 91r36 587r20 587r34 611r16
+70R9 Testcairo_Print_Operation_Record<88|102R9> 49|55p13 72p14 78p14 106p14
+. 119p14 494p14 76|183p14 191p14 200p13 207p14 217p13 223p14 233p14 241p13
+. 247p14 257p13 270p13 279p14 288p13 295p13 304p13 310p14 318p13 328p13 368p14
+. 377p14 387p14 394p14 402p14 415p14 425p14 440p14 448p14 460p14 469p14 486p14
+. 489p13 493p14 650p14 654p14 676p14 680p14 710p14 714p14 735p14 739p14 766p14
+. 770p14 805p14 809p14 829p14 833p14 871p14 875p14 917p14 921p14 943p14 947p14
+. 970p14 974p14 88|142p14 152p14 166p14 174p13 190p13 215p14 224p14 140|73e14
+. 75r6 77P25 78r28 570r28 592r23
+72p7*Widget{68P9} 579r28 593m16
+74P9 Testcairo_Print_Operation(70R9) 588r18
+77U25 Draw_Page<88|127p14> 78^7 79>7 80>7 569b14 580l8 580t17
+78p7 Op(70R9) 570b7 579r25
+79p7 Context{75|93P9} 571b7 578r32
+80i7 Page_Number{41|49I9} 572b7 576r33
+87V13 On_Redraw{boolean} 87b13 88^8 89>8 563l8 563t17 579s14 624r21
+88p8 Demo(49|40R9) 91r48
+89m8 Cr{14|77M9} 108r45 111r26 116r32 117r27 118r22 126r33 129r31 135r22
+. 149r31 151r22 154r37 155r36 156r42 157r31 159r39 161r36 162r42 163r31 164r41
+. 165r37 166r32 170r41 171r34 172r45 174r34 190r33 208r33 211r27 214r27 215r22
+. 227r33 230r33 233r27 234r24 235r23 238r27 239r22 243r23 246r22 249r25 252r29
+. 253r21 256r22 262r26 274r29 275r21 278r22 281r25 284r29 285r23 286r21 289r22
+. 292r25 299r26 300r26 303r29 304r27 305r29 306r21 309r22 312r25 315r29 316r27
+. 317r29 318r23 319r21 322r22 325r25 328r28 329r21 334r25 335r24 336r19 341r25
+. 342r24 343r19 350r25 351r24 352r19 357r25 358r24 359r19 364r25 365r24 366r19
+. 370r29 374r25 375r24 376r19 383r29 385r16 388r28 389r22 390r24 391r24 394r22
+. 396r16 399r28 400r24 403r22 405r31 407r31 408r24 410r31 413r19 416r29 417r28
+. 418r22 419r23 420r24 426r32 434r21 437r22 438r29 443r30 444r24 456r29 461r25
+. 467r29 474r29 475r20 478r24 479r29 480r19 483r22 484r26 485r26 486r26 487r25
+. 490r19 493r29 494r31 497r29 498r24 499r19 545r36 546r23 549r36 550r23 553r36
+. 554r23
+91p7 Win{68P9} 101r12 143r47 454r19 462r47
+92f7 D{41|59F9} 115m16 116r36 116r52 117r41 117r51 123m16 126r58 130r39 187m16
+. 190r48 190r51 193r41 196r44 196r62 199r38 199r47 224m16 227r48 227r51 233r39
+. 233r57 234r37 235r33 235r42 248m16 249r37 249r68 258m16 269r34 271r55 280m16
+. 281r37 281r69 291m16 292r37 292r69 311m16 312r37 312r69 324m16 325r37 325r69
+92f10 D2{41|59F9} 259m16 263r34 264r55
+92f14 D3{41|59F9} 260m16 266r34 267r55
+93p7 M{14|129P9} 182m13 193r29 202r26 202r29 205r26 205r29 211r31 218m29
+. 218r29 440m13 441r25 442r21 443r34 445m29 445r29
+93p10 M2{14|129P9} 183m13 196r32 205r32 219m29 219r29
+93p14 M3{14|129P9} 184m13 199r28 202r32 220m29 220r29
+94m7 P{14|172M9} 164m19 165r41 167r28 333m13 334r29 337r22 340m13 341r29
+. 344r22 347m13 348r33 349r33 350r29 353r22 356m13 357r29 360r22 361m13 362r34
+. 363r34 364r29 367r22 371m13 372r34 373r34 374r29 377r22
+95m7 Opt{14|2017M9} 404m13 405r35 406r28 407r35 409r28 410r35 411r22
+96m7 Image_Surface{14|92M9} 544m16 545r40 548m16 549r40 552m16 553r40 557r40
+97e7 Status{14|216E9} 557m16 558r26
+98i7 Idx{natural} 148m19 152r39 153r39
+99p7 Error{43|36P9} 104m65 104r65
+114i17 J{integer} 115r30
+122i17 J{integer} 123r30
+140p16 Layout{106|63P9} 143m16 145r38 169r29 172r49 177r23
+141p16 Desc{99|51P9} 144m16 145r46 178m22 178r22
+147e20 Op{14|574E9} 148r46 159r43 169r59
+186i17 J{integer} 187r30
+223i17 J{integer} 224r30
+247i17 J{integer} 248r30
+257i17 J{integer} 258r31 259r32 260r32
+279i17 J{integer} 280r30
+290i17 J{integer} 291r30
+296p16 Dashes{14|2477P9} 299m30 299r30 300r30
+297f16 Offset{41|59F9} 299m38 300r47
+310i17 J{integer} 311r30
+323i17 J{integer} 324r30
+424f16 X1{41|59F9} 426m36 426r36 428r35
+424f20 Y1{41|59F9} 426m47 426r47 429r35
+424f24 X2{41|59F9} 426m58 426r58 430r35
+424f28 Y2{41|59F9} 426m69 426r69 431r35
+449p16 Layout{106|63P9} 453m16 455r38 456r33 457r23 462m16 463r16 466r38
+. 467r33 468r23
+450p16 Desc{99|51P9} 452m16 455r46 458m22 458r22 460m16 466r46 469m22 469r22
+502N16 Width 505r24 508r24 511r24 516r35 517r41 522r42 527r42 535r32 536r36
+. 537r32 538r36 539r32 540r36 544r63 548r63 552r60
+503N16 Height 505r32 508r32 511r32 515r33 544r70 548r70 552r67
+504p16 Data{16|86P9} 517r22 535r22 536r26 537r22 538r26 539r22 540r26 544r57
+507p16 Data2{16|89P9} 522r22 548r56
+510p16 Data3{16|92P9} 527r22 552r53
+515i20 Line{integer} 517r29 519r40 522r30 523r40 527r30 527r64
+516i23 Col{integer} 517r49 520r40 522r50 524r40 527r50
+533i20 L{integer} 535r28 536r32 537r28 538r32 539r28 540r32
+534i23 C{integer} 535r40 536r44 537r40 538r44 539r40 540r44
+574m7 Cr{14|77M9} 578m7 579r36
+575b7 Tmp{boolean} 576r28 579m7
+586U14 On_Print_Cb 586b14 586^27 601l8 601t19 628r26
+586p27 Demo(49|40R9) 587r46
+587p7 D{68P9} 593r26 600r68
+588p7 Print_Op{74P9} 592m7 593r7 594r35 596r7 600r11
+589e7 Result{76|114E9} 590r28 599m7
+611p7 Box{68P9} 617m7 618r7 619r24 620r18 623r7 624r39 627r7 628r46
+612p7 Area{69|112P9} 622m16 622r16 623r23 624r7
+613p7 Button{67|74P9} 626m16 626r16 627r23 628r7
+

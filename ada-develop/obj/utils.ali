@@ -1,0 +1,111 @@
+V "GNAT Lib v10"
+A -gnatA
+A -gnatE
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U utils%b		utils.adb		f1650a4f DE NE OO PK IL
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W interfaces%s		interfac.ads		interfac.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U utils%s		utils.ads		1248663e DE EE NE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W interfaces%s		interfac.ads		interfac.ali
+
+D ada.ads		20230707070819 76789da1 ada%s
+D a-charac.ads		20230707070819 2d3ec45b ada.characters%s
+D a-chlat1.ads		20230707070819 66457d31 ada.characters.latin_1%s
+D a-except.ads		20230707070819 a7106115 ada.exceptions%s
+D a-finali.ads		20230707070819 bf4f806b ada.finalization%s
+D a-inteio.ads		20230707070819 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20230707070819 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20230707070819 119b8fb3 ada.streams%s
+D a-string.ads		20230707070819 90ac6797 ada.strings%s
+D a-strmap.ads		20230707070819 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20230707070819 1656705b ada.strings.unbounded%s
+D a-tags.ads		20230707070819 491b781d ada.tags%s
+D a-textio.ads		20230707070819 aef4d56d ada.text_io%s
+D a-tiinio.ads		20230707070819 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20230707070819 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20230707070819 5ab55268 interfaces%s
+D i-cstrea.ads		20230707070819 e53d8b8e interfaces.c_streams%s
+D system.ads		20230707070819 4635ec04 system%s
+D s-atocou.ads		20230707070819 b45c2d8d system.atomic_counters%s
+D s-conca2.ads		20230707070819 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20230707070819 0ebbdb71 system.crtl%s
+D s-exctab.ads		20230707070819 54135002 system.exception_table%s
+D s-ficobl.ads		20230707070819 078245e4 system.file_control_block%s
+D s-finmas.ads		20230707070819 7811a767 system.finalization_masters%s
+D s-finroo.ads		20230707070819 4ff27390 system.finalization_root%s
+D s-parame.ads		20230707070819 48ec542b system.parameters%s
+D s-secsta.ads		20230707070819 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20230707070819 a7318a92 system.soft_links%s
+D s-stache.ads		20230707070819 a37c21ec system.stack_checking%s
+D s-stalib.ads		20230707070819 09bd3940 system.standard_library%s
+D s-stoele.ads		20230707070819 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20230707070819 b16154c2 system.storage_pools%s
+D s-stposu.ads		20230707070819 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20230707070819 aedef97e system.stream_attributes%s
+D s-traent.ads		20230707070819 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20230707070819 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20230707070819 1b7d22d2 system.wch_con%s
+D utils.ads		20250202134310 061418c4 utils%s
+D utils.adb		20250202134310 e32d6c71 utils%b
+G a e
+G c Z s b [binary_to_string utils 8 10 none]
+G c Z s b [unbounded_string_to_unsigned_32 utils 9 10 none]
+G c Z s b [bool_to_str utils 10 10 none]
+X 1 ada.ads
+16K9*Ada 20e8 38|1r6 1r33 2r6 2r31 3r6 3r31 39|1r6 1r33 2r6 2r31 3r6 3r31
+X 6 a-inteio.ads
+18K13*Integer_Text_IO[14|46] 38|3w10 3r35 39|3w10 3r35
+X 9 a-string.ads
+16K13*Strings 35e16 38|1r10 1r37 39|1r10 1r37
+X 11 a-strunb.ads
+82K21*Unbounded 756e26 38|1w18 1r45 39|1w18 1r45
+87R9*Unbounded_String<5|43R9> 739e14 38|9r58 39|30r61
+92V13*Length{natural} 39|34s21
+116V13*To_String{string} 39|41s72
+191V13*Element{character} 39|35s15
+X 13 a-textio.ads
+57K13*Text_IO 727e16 38|2w10 2r35 39|2w10 2r35
+X 16 interfac.ads
+38K9*Interfaces 184e15 38|4w6 4r22 8r36 39|4w6 4r22 9r39 13r16
+74M9*Unsigned_32 38|8r47 9r83 39|9r50 13r27 30r86 31r16
+X 38 utils.ads
+6K9*utils 11l5 11e10 39|7b14 56l5 56t10
+8V10*Binary_To_String{string} 8>28 39|9b13 28l8 28t24
+8m28 Value{16|74M9} 39|9b31 13r42
+9V10*Unbounded_String_To_Unsigned_32{16|74M9} 9>42 39|30b13 46l8 46t39
+9r42 Binary_String{11|87R9} 39|30b45 34r28 35r23 41r82
+10V10*Bool_to_str{string} 10>22 39|48b13 55l8 55t19
+10b22 Bool{boolean} 39|48b25 50r10
+X 39 utils.adb
+11a7 Result{string} 20m16 27r14
+12i7 Index{natural} 18r34 20r24 23m13 23r22
+13m7 Temp{16|74M9} 15r13 18r16 19r16 22m13 22r21
+31m7 Result{16|74M9} 37m16 37r26 39m16 39r26 45r14
+34i11 I{integer} 35r38
+

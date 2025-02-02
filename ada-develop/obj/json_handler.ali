@@ -1,0 +1,198 @@
+V "GNAT Lib v10"
+A -gnatA
+A -gnatE
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV SPARK_05
+
+U json_handler%b	json_handler.adb	84b20114 DE NE OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.streams.stream_io%s  a-ststio.adb		a-ststio.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W gnatcoll%s		gnatcoll.ads		gnatcoll.ali
+W gnatcoll.json%s	gnatcoll-json.adb	gnatcoll-json.ali
+Z interfaces%s		interfac.ads		interfac.ali
+Z system%s		system.ads		system.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+
+U json_handler%s	json_handler.ads	28ac9af7 DE EE NE OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W gnatcoll%s		gnatcoll.ads		gnatcoll.ali
+W gnatcoll.json%s	gnatcoll-json.adb	gnatcoll-json.ali
+Z system%s		system.ads		system.ali
+Z system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+D ada.ads		20230707070819 76789da1 ada%s
+D a-charac.ads		20230707070819 2d3ec45b ada.characters%s
+D a-chahan.ads		20230707070819 1601a50f ada.characters.handling%s
+D a-chlat1.ads		20230707070819 66457d31 ada.characters.latin_1%s
+D a-contai.ads		20230707070819 61e5e089 ada.containers%s
+D a-conhel.ads		20230707070819 20298884 ada.containers.helpers%s
+D a-convec.ads		20230707070819 7e2b0fdf ada.containers.vectors%s
+D a-except.ads		20230707070819 a7106115 ada.exceptions%s
+D a-finali.ads		20230707070819 bf4f806b ada.finalization%s
+D a-ioexce.ads		20230707070819 e4a01f64 ada.io_exceptions%s
+D a-iteint.ads		20230707070819 7c7305e9 ada.iterator_interfaces%s
+D a-stream.ads		20230707070819 119b8fb3 ada.streams%s
+D a-ststio.ads		20230707070819 d6d358e8 ada.streams.stream_io%s
+D a-string.ads		20230707070819 90ac6797 ada.strings%s
+D a-strmap.ads		20230707070819 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20230707070819 1656705b ada.strings.unbounded%s
+D a-tags.ads		20230707070819 491b781d ada.tags%s
+D a-textio.ads		20230707070819 aef4d56d ada.text_io%s
+D a-unccon.ads		20230707070819 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20230707070819 eff36322 ada.unchecked_deallocation%s
+D gnatcoll.ads		20201222095809 6a5da479 gnatcoll%s
+D gnatcoll-atomic.ads	20201222095809 a760a918 gnatcoll.atomic%s
+D gnatcoll-json.ads	20201222095809 032915c7 gnatcoll.json%s
+D gnatcoll-strings.ads	20201222095809 014a3fb6 gnatcoll.strings%s
+D gnatcoll-strings_impl.ads  20201222095809 660cba3c gnatcoll.strings_impl%s
+D interfac.ads		20230707070819 5ab55268 interfaces%s
+D i-cstrea.ads		20230707070819 e53d8b8e interfaces.c_streams%s
+D json_handler.ads	20250202134310 3dd3ff6b json_handler%s
+D json_handler.adb	20250202134310 d4391666 json_handler%b
+D system.ads		20230707070819 4635ec04 system%s
+D s-atocou.ads		20230707070819 b45c2d8d system.atomic_counters%s
+D s-crtl.ads		20230707070819 0ebbdb71 system.crtl%s
+D s-exctab.ads		20230707070819 54135002 system.exception_table%s
+D s-ficobl.ads		20230707070819 078245e4 system.file_control_block%s
+D s-finmas.ads		20230707070819 7811a767 system.finalization_masters%s
+D s-finroo.ads		20230707070819 4ff27390 system.finalization_root%s
+D s-memory.ads		20230707070819 597d6634 system.memory%s
+D s-parame.ads		20230707070819 48ec542b system.parameters%s
+D s-pooglo.ads		20230707070819 ede33ef8 system.pool_global%s
+D s-secsta.ads		20230707070819 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20230707070819 a7318a92 system.soft_links%s
+D s-stache.ads		20230707070819 a37c21ec system.stack_checking%s
+D s-stalib.ads		20230707070819 09bd3940 system.standard_library%s
+D s-stalib.adb		20230707070819 f2fe2716 system.standard_library%b
+D s-stoele.ads		20230707070819 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20230707070819 b16154c2 system.storage_pools%s
+D s-stposu.ads		20230707070819 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20230707070819 aedef97e system.stream_attributes%s
+D s-string.ads		20230707070819 8fe54fb7 system.strings%s
+D s-ststop.ads		20230707070819 5fbf1b38 system.strings.stream_ops%s
+D s-traent.ads		20230707070819 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20230707070819 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20230707070819 1b7d22d2 system.wch_con%s
+G a e
+G c Z s b [load_json_data json_handler 19 13 none]
+G c Z s s [personDI json_handler 8 9 none]
+G c Z s s [personDA json_handler 8 9 none]
+G c Z s s [personDF json_handler 8 9 none]
+G c Z s s [personIP json_handler 8 9 none]
+G c Z s s [person_listIP json_handler 16 9 none]
+G c Z s s [person_listDI json_handler 16 9 none]
+G c Z s s [person_listDA json_handler 16 9 none]
+G c Z s s [person_listDF json_handler 16 9 none]
+G r s json_value [load_json_data json_handler 19 13 none] [json_valueIP gnatcoll__json 534 9 none]
+G r l json_value [load_json_data json_handler 19 13 none] [json_valueDI gnatcoll__json 534 9 none]
+G r k json_value [load_json_data json_handler 19 13 none] [json_valueDF gnatcoll__json 534 9 none]
+G r s json_array [load_json_data json_handler 19 13 none] [json_arrayIP gnatcoll__json 549 9 none]
+G r l json_array [load_json_data json_handler 19 13 none] [json_arrayDI gnatcoll__json 549 9 none]
+G r k json_array [load_json_data json_handler 19 13 none] [json_arrayDF gnatcoll__json 549 9 none]
+G r c none [load_json_data json_handler 19 13 none] [read gnatcoll__json 222 13 none]
+G r c none [load_json_data json_handler 19 13 none] [get gnatcoll__json 488 13 none]
+G r j json_array [load_json_data json_handler 19 13 none] [json_arrayDA gnatcoll__json 549 9 none]
+G r c none [load_json_data json_handler 19 13 none] [length gnatcoll__json 143 13 none]
+G r c none [load_json_data json_handler 19 13 none] [get gnatcoll__json 146 13 none]
+G r c none [load_json_data json_handler 19 13 none] [get gnatcoll__json 483 13 none]
+X 1 ada.ads
+16K9*Ada 20e8 28|2r6 2r33 29|2r6 2r34 3r6 3r23 4r6 4r33 9r19 18r7 18r30 21r17
+. 22r31 26r7
+X 3 a-chahan.ads
+66V13*To_Lower{character} 25|283i21
+67V13*To_Upper{character} 25|285i21
+X 11 a-iteint.ads
+24h9 Forward_Iterator
+32h9 Reversible_Iterator<24R9[7|111]>
+X 12 a-stream.ads
+36K13*Streams 87e16 29|4r10 4r37
+X 13 a-ststio.ads
+39K21*Stream_IO 224e26 29|4w18 4r45
+X 14 a-string.ads
+16K13*Strings 35e16 28|2r10 2r37 29|2r10 2r38
+X 16 a-strunb.ads
+82K21*Unbounded 756e26 28|2w18 2r45 29|2w18 2r46
+87R9*Unbounded_String<9|43R9> 739e14 28|9r19 10r19 11r19 12r19 29|10r22
+116V13*To_String{string} 29|29s25
+135U14*Append 29|22s10
+X 18 a-textio.ads
+57K13*Text_IO 727e16 29|3w10 3r27 9r23 18r11 18r34 21r21 22r35 26r11
+64P9*File_Type 29|9r31
+66n23*In_File{66E9} 29|18r42
+114U14*Open 29|18s19
+129U14*Close 29|26s19
+312V13*End_Of_File{boolean} 29|21s29
+492V13*Get_Line{string} 29|22s43
+X 21 gnatcoll.ads
+24K9*GNATCOLL 27e13 28|1r6 1r25 29|1r6 1r25
+X 23 gnatcoll-json.ads
+58K18*JSON 580e18 28|1w15 1r34 29|1w15 1r34
+103R9*JSON_Value<9|43R9> 536e14 29|11r19 13r19
+118R9*JSON_Array 551e14 29|12r19
+143V13*Length{natural} 29|34s21
+146V13*Get{103R9} 29|35s20
+222V13*Read{103R9} 29|29s20
+305V14*"="{boolean} 7|64i19
+483V13*Get{100R12} 29|38s26 39s26 40s26 41s26
+488V13*Get{118R9} 29|32s17
+X 28 json_handler.ads
+5K9*JSON_Handler 21l5 21e17 29|6b14 53l5 53t17
+8R9*Person 13e14 16r53
+9r7*FirstName{16|87R9} 29|38m13
+10r7*LastName{16|87R9} 29|39m13
+11r7*Key{16|87R9} 29|40m13
+12r7*Birthdate{16|87R9} 29|41m13
+16A9*Person_List(8R9)<integer> 19r55 29|8r55 14r19
+19V13*Load_JSON_Data{16A9} 19>28 29|8b13 51l8 51t22
+19a28 File_Path{string} 29|8b28 18r51
+X 29 json_handler.adb
+9p7 File{18|64P9} 18m24 18r24 21r41 22r52 26m25 26r25
+10r7 File_Content{16|87R9} 22m17 22r17 29r35
+11r7 JSON_Data{23|103R9} 29m7 32r21
+12r7 People{23|118R9} 32m7 32r7 34r28 35r24
+13r7 Person{23|103R9} 35m10 38r30 39r30 40r30 41r30
+14a7 Result{28|16A9} 37m10 50r14
+15i7 Index{natural} 36m10 36r19 37r17
+34i11 I{integer} 35r32
+X 30 system.ads
+67M9*Address
+X 37 s-memory.ads
+53V13*Alloc{30|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{30|67M9} 105i<c,__gnat_realloc>22
+X 44 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+
